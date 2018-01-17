@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "jperapera",
+  "version": "1.0",
+
+  "description": "Japanese-perapera for firefox-45",
+
+  "icons": {
+    "48": "chrome/skin/classic/japanese32.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*"],
+      "js": ["jperapera.js"]
+    }
+  ]
+
+}
+
